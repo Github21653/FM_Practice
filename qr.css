@@ -1,0 +1,37 @@
+body, html{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfe7f1;
+}
+.qrImage{
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.qrImage img{
+    width: 100%;
+    border-radius: 10px;
+}
+.qrImage h2 {
+    font-size: 18px;
+
+}
+.qrImage p{
+    font-size: 14px;
+    color: #555;
+}
+@media (min-width: 600px) {
+    .card {
+        width: 80%;
+    }
+}
+@media (min-width: 900px) {
+    .card {
+        width: 60%;
+    }
+}
